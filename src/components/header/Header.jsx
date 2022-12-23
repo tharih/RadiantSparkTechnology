@@ -114,9 +114,9 @@ export default function Header() {
       <section class="infetech-header-area header-sticky">
         <div class="header-wrapper">
           <div class="templates-logo">
-            <a href="/">
+            <Link to="Home">
               <img src="assets/images/logo-no-background.png" alt="logo" />
-            </a>
+            </Link>
           </div>
           <div class="header-box">
             <div class="header-topbar">
