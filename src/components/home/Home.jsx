@@ -354,7 +354,7 @@ export default function Home() {
                         <div class="single-project-overlay">
                             <h4 class="title">Livon Textiles</h4>
                             <span>POS System</span>
-                            <a href="#"><i class="fal fa-long-arrow-right"></i></a>
+                            <a href="https://main--storied-axolotl-5cf64d.netlify.app/"><i class="fal fa-long-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -365,6 +365,16 @@ export default function Home() {
                             <h4 class="title">Smart Railway Traveler</h4>
                             <span>Mobile App</span>
                             <a href="#"><i class="fal fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="single-project-item">
+                        <img src="assets/images/p7.png" alt="" />
+                        <div class="single-project-overlay">
+                            <h4 class="title">Netflix-Clone</h4>
+                            <span>Web Site</span>
+                            <a href="https://netflix-clone-blue-gamma.vercel.app/"><i class="fal fa-long-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -473,6 +483,31 @@ export default function Home() {
                             <li><i class="fas fa-star"></i></li>
                         </ul>
                         <p>We would like to express our satisfaction on the cooperation regarding the development of our web application. RAdiant Spark Technology development team did a very professional job. We are satisfied with the solution given to us and with the communication flow through the project.</p>
+                                {/* <p>We would like to recommend Radiant Spark Technology. We look forward to working with them in future projects.</p> */}
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="single-testimonial-box">
+                    <div class="single-testimonial-user">
+                        <div class="thumb">
+                            <img src="assets/images/Pink Feminine Spa Logo-4.png" alt="" />
+                        </div>
+                        <div class="user-content">
+                            <h5 class="title">Tatiana Mcnamee</h5>
+                            <span>La Massage</span>
+                            <img src="assets/images/testimonial-shape.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="single-testimonial-item">
+                        <ul>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                        </ul>
+                        <p>we want to acknowledge Tharinda for helping us set up our website. He has listened to us in the little details to deliver a product that fulfill our expectations. We will be contacting  for future  projects when the time is right.  Thanks!</p>
                                 {/* <p>We would like to recommend Radiant Spark Technology. We look forward to working with them in future projects.</p> */}
                     </div>
                 </div>

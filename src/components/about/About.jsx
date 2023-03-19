@@ -142,10 +142,32 @@ export default function About() {
                             </div>
                             <div class="text">
                                 <p>We would like to express our satisfaction on the cooperation regarding the development of our web application. RAdiant Spark Technology development team did a very professional job. We are satisfied with the solution given to us and with the communication flow through the project.</p>
-                                <p>We would like to recommend Radiant Spark Technology. We look forward to working with them in future projects.</p>
+                                
                             </div>
 
                         </div>
+                        {/* <div class="testimonial-slide-item">
+                            <div class="box">
+                                <div class="thumb">
+                                    <img src="assets/images/Pink Feminine Spa Logo-3.png" alt="" />
+                                </div>
+                                <div class="content">
+                                    <h5 class="title">Tatiana Mcnamee</h5>
+                                    <span>La Massage</span>
+                                    <ul>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <p>we want to acknowledge Tharinda for helping us set up our website. He has listened to us in the little details to deliver a product that fulfill our expectations. We will be contacting  for future  projects when the time is right.  Thanks!</p>
+                            </div>
+
+                        </div> */}
                     </div>
                 </div>
                 <div class="col-lg-6">

@@ -70,7 +70,7 @@ export default function Projects() {
                         <div class="single-project-overlay">
                             <h4 class="title">Livon Textiles</h4>
                             <span>POS System</span>
-                            <a href="#"><i class="fal fa-long-arrow-right"></i></a>
+                            <a href="https://main--storied-axolotl-5cf64d.netlify.app/"><i class="fal fa-long-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -81,6 +81,36 @@ export default function Projects() {
                             <h4 class="title">Smart Railway Traveler</h4>
                             <span>Mobile App</span>
                             <a href="#"><i class="fal fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-project-item">
+                        <img src="assets/images/p7.png" alt="" />
+                        <div class="single-project-overlay">
+                            <h4 class="title">Netflix-Clone</h4>
+                            <span>Web Site</span>
+                            <a href="https://netflix-clone-blue-gamma.vercel.app/"><i class="fal fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-project-item">
+                        <img src="assets/images/p8.png" alt="" />
+                        <div class="single-project-overlay">
+                            <h4 class="title">Z-Films</h4>
+                            <span>Web Site</span>
+                            <a href="https://z-films.vercel.app/"><i class="fal fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-project-item">
+                        <img src="assets/images/p9.png" alt="" />
+                        <div class="single-project-overlay">
+                            <h4 class="title">La Massage</h4>
+                            <span>Web Site</span>
+                            <a href="https://lamassage.co.nz/"><i class="fal fa-long-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
