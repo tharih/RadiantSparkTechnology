@@ -1,9 +1,24 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Link } from "react-router-dom";
+import emailjs from '@emailjs/browser';
+
 
 
 
 export default function Contact(){
+    const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_406t204', 'template_q7z3arq', form.current, 'JIoITWCRFErW3lGUM')
+      .then((result) => {
+          console.log(result.text);
+        //   console.log("message sent");
+      }, (error) => {
+          console.log(error.text);
+      });
+    }
     return(
         <div>
     <section class="breadcrumb-area">
@@ -67,31 +82,31 @@ export default function Contact(){
                 </div>
                 <div class="col-lg-8">
                     <div class="contact-form-page-box mt-30">
-                        <form action="#">
+                        <form action="#" method="post" onSubmit={sendEmail} ref={form}>
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="input-box">
-                                        <input type="text" placeholder="Your Name" />
+                                        <input type="text" name='user_name' placeholder="Your Name" />
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="input-box">
-                                        <input type="email" placeholder="Email Address" />
+                                        <input type="email" name='user_email' placeholder="Email Address" />
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="input-box">
-                                        <input type="text" placeholder="Phone Number" />
+                                        <input type="text" name='user_number' placeholder="Phone Number" />
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="input-box">
-                                        <input type="text" placeholder="Subject" />
+                                        <input type="text" name='from_name' placeholder="Subject" />
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="input-box">
-                                        <textarea name="#" id="#" cols="30" rows="10" placeholder="Write a Message"></textarea>
+                                        <textarea  id="#" cols="30" rows="10" name="message" placeholder="Write a Message"></textarea>
                                         <button type="submit" class="main-btn">Send a message</button>
                                     </div>
                                 </div>
