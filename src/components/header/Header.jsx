@@ -57,17 +57,17 @@ export default function Header() {
                 <div class="offcanvas-social">
                   <ul class="text-center">
                     <li>
-                      <Link to="#">
+                      <Link to="https://www.facebook.com/profile.php?id=100075720747074">
                         <i class="fab fa-facebook-f"></i>
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link to="#">
                         <i class="fab fa-linkedin"></i>
                       </Link>
-                    </li>
+                    </li> */}
                     <li>
-                      <Link to="#">
+                      <Link to="https://www.instagram.com/radiantsparktechnology/">
                         <i class="fab fa-instagram"></i>
                       </Link>
                     </li>

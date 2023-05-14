@@ -14,9 +14,9 @@ export default function Footer(){
                         <p>We work with a passion of taking challenges and creating new ones in advertising sector.</p>
                         <ul>
                             {/* <li><a href="#"><i class="fab fa-fiverr"></i></a></li> */}
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.facebook.com/profile.php?id=100075720747074"><i class="fab fa-facebook-f"></i></a></li>
+                            {/* <li><a href="#"><i class="fab fa-linkedin"></i></a></li> */}
+                            <li><a href="https://www.instagram.com/radiantsparktechnology/"><i class="fab fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
