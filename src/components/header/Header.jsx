@@ -141,17 +141,13 @@ export default function Header() {
                       <ul>
                         {/* <li><i class="fab fa-twitter"></i></li> */}
                         <li>
-                        <Link to="https://www.facebook.com/profile.php?id=100075720747074">
-                        <i class="fab fa-facebook-f"></i>
-                      </Link>
+                          <i class="fab fa-facebook-f"></i>
                         </li>
                         {/* <li>
                           <i class="fab fa-linkedin"></i>
                         </li> */}
                         <li>
-                        <Link to="https://www.instagram.com/radiantsparktechnology/">
-                        <i class="fab fa-instagram"></i>
-                      </Link>
+                          <i class="fab fa-instagram"></i>
                         </li>
                       </ul>
                     </div>
