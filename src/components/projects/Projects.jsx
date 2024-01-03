@@ -114,6 +114,46 @@ export default function Projects() {
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-project-item">
+                        <img src="assets/images/p10.png" alt="" />
+                        <div class="single-project-overlay">
+                            <h4 class="title">Jobzen</h4>
+                            <span>Web Site</span>
+                            <a href="https://jobzen.co.nz/"><i class="fal fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-project-item">
+                        <img src="assets/images/p11.png" alt="" />
+                        <div class="single-project-overlay">
+                            <h4 class="title">Prestige Auto Motive</h4>
+                            <span>Web Site</span>
+                            <a href="https://www.prestige-automotive.com.au/"><i class="fal fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-project-item">
+                        <img src="assets/images/p12.png" alt="" />
+                        <div class="single-project-overlay">
+                            <h4 class="title">Sysdee</h4>
+                            <span>Web Site</span>
+                            <a href="https://www.sysdee.com.au/"><i class="fal fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-project-item">
+                        <img src="assets/images/p13.png" alt="" />
+                        <div class="single-project-overlay">
+                            <h4 class="title">Wave of image</h4>
+                            <span>Web Site</span>
+                            <a href="https://wave-of-image-new.vercel.app/"><i class="fal fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section> 
